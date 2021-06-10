@@ -73,7 +73,6 @@ function updateCartPreview() {
   cartLi.innerHTML = `<p>${itemPicked}: ${itemQuantity}</p>`;
   cartUl.appendChild(cartLi);
   catalogForm.reset();
-}
 
 // Set up the "submit" event listener on the form.
 // This is the trigger for the app. When a user "submits" the form, it will
